@@ -5,13 +5,13 @@ const PORT = process.env.PORT || 5000;
 
 app.set('view engine', 'hbs');
 
-app.get('/', (req, res) => {
+app.get('/hello', (req, res) => {
   res.send({
     message: 'Hello Wolrd',
   });
 });
 
-app.get('/user', (req, res) => {
+app.get('/', (req, res) => {
   const users = [
     {
       id: 1,
