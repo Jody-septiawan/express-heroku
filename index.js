@@ -6,10 +6,7 @@ const PORT = process.env.PORT || 5000;
 app.set('view engine', 'hbs');
 
 app.get('/hello', (req, res) => {
-  res.send({
-    message: 'Hello Wolrd',
-    port: process.env.PORT,
-  });
+  res.render('index');
 });
 
 app.get('/', (req, res) => {
