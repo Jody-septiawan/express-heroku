@@ -8,6 +8,7 @@ app.set('view engine', 'hbs');
 app.get('/hello', (req, res) => {
   res.send({
     message: 'Hello Wolrd',
+    port: process.env.PORT,
   });
 });
 
