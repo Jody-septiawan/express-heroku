@@ -24,6 +24,42 @@ const users = [
     email: 'jody3@mail.com',
     password: '123',
   },
+  {
+    id: 1,
+    name: 'jody1',
+    email: 'jody1@mail.com',
+    password: '123',
+  },
+  {
+    id: 2,
+    name: 'jody2',
+    email: 'jody2@mail.com',
+    password: '123',
+  },
+  {
+    id: 3,
+    name: 'jody3',
+    email: 'jody3@mail.com',
+    password: '123',
+  },
+  {
+    id: 1,
+    name: 'jody1',
+    email: 'jody1@mail.com',
+    password: '123',
+  },
+  {
+    id: 2,
+    name: 'jody2',
+    email: 'jody2@mail.com',
+    password: '123',
+  },
+  {
+    id: 3,
+    name: 'jody3',
+    email: 'jody3@mail.com',
+    password: '123',
+  },
 ];
 
 app.get('/', (req, res) => {
